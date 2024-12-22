@@ -1,0 +1,45 @@
+.logo{
+    position: fixed;
+    left:20px;
+    width: 80px;
+}
+
+.avatar{
+    position: fixed;
+    right: 65px;
+    width: 30px;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    transition: 0.5s;
+}
+
+.navbar.show {
+    transform: translateY(0); 
+  }
+  
+  .navbar.hide {
+    transform: translateY(-100%); 
+  }
+
+.login{
+    position: fixed;
+    right: 118px;
+    color:rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.login:hover{
+    color: grey;
+}
